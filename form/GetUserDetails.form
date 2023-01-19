@@ -1,0 +1,43 @@
+{
+  "components": [
+    {
+      "label": "First Name",
+      "type": "textfield",
+      "id": "Field_07bp0x1",
+      "key": "firstName",
+      "validate": {
+        "required": true,
+        "pattern": "^[A-Za-z]"
+      }
+    },
+    {
+      "label": "Last Name",
+      "type": "textfield",
+      "id": "Field_1fdm9pa",
+      "key": "lastName",
+      "validate": {
+        "pattern": "^[A-Za-z]",
+        "required": true
+      }
+    },
+    {
+      "label": "Age",
+      "type": "textfield",
+      "id": "Field_02340kg",
+      "key": "age",
+      "validate": {
+        "required": true,
+        "pattern": "^[0-9]"
+      }
+    }
+  ],
+  "type": "default",
+  "id": "Form_04hvzp7",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.7.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.18.0",
+  "schemaVersion": 6
+}
