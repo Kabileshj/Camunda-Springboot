@@ -1,0 +1,10 @@
+com\camunda\delegate\GetUserById.class
+com\camunda\Application.class
+com\camunda\config\HikariIntegrationTest.class
+com\camunda\delegate\GetAllUsers.class
+com\camunda\delegate\UpdateUser.class
+com\camunda\dao\User.class
+com\camunda\delegate\DeleteUser.class
+com\camunda\repo\UserRepository.class
+com\camunda\delegate\CreateUser.class
+com\camunda\config\JpaConfig.class
